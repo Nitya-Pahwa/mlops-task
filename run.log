@@ -1,0 +1,20 @@
+2026-05-20T17:02:04 | INFO     | ============================================================
+2026-05-20T17:02:04 | INFO     | MLOps Batch Job STARTED
+2026-05-20T17:02:04 | INFO     | Input:   data.csv
+2026-05-20T17:02:04 | INFO     | Config:  config.yaml
+2026-05-20T17:02:04 | INFO     | Output:  metrics.json
+2026-05-20T17:02:04 | INFO     | Log:     run.log
+2026-05-20T17:02:04 | INFO     | ============================================================
+2026-05-20T17:02:04 | INFO     | Loading config from: config.yaml
+2026-05-20T17:02:04 | INFO     | Config validated — seed=42, window=5, version=v1
+2026-05-20T17:02:04 | INFO     | Random seed set: 42
+2026-05-20T17:02:04 | INFO     | Loading dataset from: data.csv
+2026-05-20T17:02:04 | INFO     | Dataset loaded — 10000 rows, columns: ['timestamp', 'open', 'high', 'low', 'close', 'volume_btc', 'volume_usd']
+2026-05-20T17:02:04 | INFO     | Computing rolling mean — window=5
+2026-05-20T17:02:04 | INFO     | Warm-up rows excluded from signal: 4
+2026-05-20T17:02:04 | INFO     | Rows used for signal computation: 9996
+2026-05-20T17:02:04 | INFO     | Signal generation complete.
+2026-05-20T17:02:04 | INFO     | Metrics summary — rows_processed=9996, signal_rate=0.4991, latency_ms=89
+2026-05-20T17:02:04 | INFO     | Metrics written to: metrics.json
+2026-05-20T17:02:04 | INFO     | Job COMPLETED SUCCESSFULLY
+2026-05-20T17:02:04 | INFO     | ============================================================
